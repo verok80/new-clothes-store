@@ -1,8 +1,12 @@
+
 function Clothes({anyClothes}){
+
     return(
         <div className="products">
-{anyClothes.map((element => {
-    const {id, name, searchTerm, price, image} = element;
+{anyClothes.map((item => {
+    const {id, name, searchTerm, price, image} = item;
+   
+
     return(<div  className="product-card" key={id}>
         
          <img src={image} width="400px" height="500px" alt="clothes"/>

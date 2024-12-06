@@ -1,9 +1,9 @@
 import { data } from  './data';
-function Buttons({setClothes}){
+function Buttons({ setClothes }){
 
 
-    const filteredClothes = (searchTerm) =>{
-        const newClothesArray = data.filter(element => element.searchTerm.includes(searchTerm))
+    const filteredClothes = (searchTerm) => {
+        const newClothesArray = data.filter((item) => item.searchTerm.includes(searchTerm))
         setClothes(newClothesArray)
     }
     
@@ -11,7 +11,7 @@ function Buttons({setClothes}){
       
 
     return(
-    
+     
         <div className="cont">
             <button className="change" onClick={() => filteredClothes("woman")}>Woman</button>
             <button className="change" onClick={() => filteredClothes("man")}>Man</button>
@@ -20,6 +20,7 @@ function Buttons({setClothes}){
             <button className="change" onClick={() => filteredClothes("pants")}>Pants</button>
             <button className="change" onClick={() => filteredClothes("shoes")}>Shoes</button>
             <button className="change" onClick={() => filteredClothes("shirt")}>Shirts</button>
+          
         </div>
     )
 }

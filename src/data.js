@@ -194,7 +194,7 @@ export const data = [
   
       name: "Lunch with friends",
   
-      searchTerm: "skirt",
+      searchTerm: ["woman","skirt"],
   
       price: 284,
   
@@ -222,7 +222,7 @@ export const data = [
 
       name: "Casual you",
 
-      searchTer: [ "man","shirt"],
+      searchTerm: [ "man","shirt"],
 
       price: 89.99   ,
 
@@ -234,7 +234,7 @@ export const data = [
 
       name: "Lucky red",
 
-      searchTer: [ "man","shoes"],
+      searchTerm: [ "man","shoes"],
 
       price: 180.90,
 
@@ -246,7 +246,7 @@ export const data = [
 
       name: "Black nonformal",
 
-      searchTer: [ "man","pants"],
+      searchTerm: [ "man","pants"],
 
       price:   155.99,
 
@@ -258,7 +258,7 @@ export const data = [
 
       name: "Formal and comfy",
 
-      searchTer: [ "man","shoes"],
+      searchTerm: [ "man","shoes"],
 
       price:   300.00,
 
@@ -270,7 +270,7 @@ export const data = [
 
       name: "All white",
 
-      searchTer: [ "man","pants"],
+      searchTerm: [ "man","pants"],
 
       price:   149.99 ,
 
@@ -282,7 +282,7 @@ export const data = [
 
       name: "Relaxed",
 
-      searchTer: [ "man","shirt"],
+      searchTerm: [ "man","shirt"],
 
       price:  69.99,
 
@@ -294,7 +294,7 @@ export const data = [
 
       name: "Plain and comfy",
 
-      searchTer: [ "man","shirt"],
+      searchTerm: [ "man","shirt"],
 
       price:   55.99,
 
@@ -306,7 +306,7 @@ export const data = [
 
       name: "Formal white",
 
-      searchTer: [ "man","shirt"],
+      searchTerm: [ "man","shirt"],
 
       price:   98.89,
 
@@ -318,7 +318,7 @@ export const data = [
 
       name: "Street's favorite",
 
-      searchTer: [ "man","shoes"],
+      searchTerm: [ "man","shoes"],
 
       price:   169.99,
 
