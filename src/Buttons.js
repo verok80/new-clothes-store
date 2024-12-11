@@ -3,7 +3,7 @@ function Buttons({ setClothes }){
 
 
     const filteredClothes = (searchTerm) => {
-        const newClothesArray = data.filter((item) => item.searchTerm.includes(searchTerm))
+        const newClothesArray = data.filter((item) =>item.searchTerm && item.searchTerm.includes(searchTerm))
         setClothes(newClothesArray)
     }
     
